@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url('montaña.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#particles-js{
+
+    margin-top: 55px;
+    margin-bottom: -500px;
+}
+
+header{
+    border-radius: 15px;
+    background: #A33323;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#target{
+    color: #fff;
+    border-radius: 15px 50px 30px 5px;
+    background: #3A211C;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    transition: width 2s, height 2s, transform 2s;
+    position:absolute;
+    opacity: 0.7;
+}
+#target:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(200deg);
+}
+
+#target p{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#perfil{
+    margin-left:1000%;
+    margin-top: -34px;
+    width: 200px;
+   
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+    background-color: #454040;
+    opacity: 0.6;
+}
+
+.flex-container > div{
+    background-color: #f1f1f1;
+    width: 180px;
+    margin: 15px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 15px / 50px;
+    box-shadow: 10px 10px lightblue;
+
+}
+
+.flex-container > div > a{
+     color: #000;
+     text-align: center;
+
+
+}
+.flex-container > div:hover{
+    background: #A33323;
+    transition: all 2s;
+}
+
+
+.pantallaInicio{
+    width: 500px;
+    height:500px;
+    margin: 50px;
+    margin-left:700px;
+    background-image: url('montaña.jpg');
+
+}
